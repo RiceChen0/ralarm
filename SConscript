@@ -13,7 +13,7 @@ adapter/rtthread/ral_event_adapter.c
 CPPPATH = [cwd + '/include']
 
 if GetDepend(['PKG_USING_RALARM_EXAMPLE']):
-    src += ['example/ralarm_example.cpp']
+    src += ['example/ralarm_example.c']
 
 group = DefineGroup('ralarm', src, depend = [''], CPPPATH = CPPPATH)
 Return('group')

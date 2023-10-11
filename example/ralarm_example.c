@@ -18,7 +18,7 @@ static void alarm_handler(ralarm_t alarm)
     ralarm_dump();
 }
 
-static pf_err_t alarm_time_get(ralarm_time_t timer)
+static ral_status alarm_time_get(ralarm_time_t timer)
 {
     time_t current;
     struct tm *local;
