@@ -64,3 +64,4 @@ int ralarm_test(void)
 
     return RT_EOK;
 }
+MSH_CMD_EXPORT(ralarm_test, ralarm test);
